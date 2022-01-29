@@ -38,7 +38,7 @@ x_train, x_test, y_train, y_test = train_test_split(
     	np.array(images), np.array(labels), test_size=model.TEST_SIZE
     	)
 
-def do():
+def train():
 	importlib.reload(model)
 
 	new_model = model.get_model()
